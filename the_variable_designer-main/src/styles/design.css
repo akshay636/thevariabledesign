@@ -1,0 +1,32 @@
+.mt-6{
+    margin-top: 21rem !important;
+}
+.rqw{
+    display: flex;
+    width: 100%;
+   
+    
+}
+.mt{
+    margin-top: 5rem !important;
+}
+.design-col{
+    width: 100%;
+    border: 1px solid rgb(65, 65, 65);
+    height: 250px;
+
+}
+.heading{
+    /* margin-top: 12rem; */
+    color: whitesmoke;
+}
+img{
+    width: 302px;
+    height: 248px;
+}
+@media only screen and (max-width: 600px) {
+    .rqw {
+    flex-direction: column;
+    justify-content: space-between;
+    }
+}  

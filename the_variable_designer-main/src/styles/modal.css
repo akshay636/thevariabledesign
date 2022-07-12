@@ -1,0 +1,60 @@
+.mdCancel{
+    display: flex;
+    font-size: xx-large;
+    float: right;
+    color: white;
+}
+.modal{
+    margin-top: 50px;
+    margin-left: -100px;
+    
+}
+.modal-body{
+    height: 450px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    pointer-events: auto;
+    background-color: azure;
+    background: none !important;
+    background-clip: padding-box;
+    border: 1pxsolidrgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    
+}
+.img{
+    width: 670px;
+    height: 450px;
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    .img{
+        width: 100%;
+        height: auto;
+    }
+    .modal-content{
+        width: 100%;
+      }
+}
+@media (max-width:480px) {
+    .img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (max-width: 480px) {
+    .modal-content{
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .modal {
+        margin-top: 200px;
+   margin-left: 0px;
+    }
+}  
